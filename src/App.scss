@@ -1,0 +1,45 @@
+body {
+  // height: 100vh;
+  height: 100%;
+  margin: 2em;
+  overflow: hidden;
+  background: #dfdfdf;
+  font-size: 13px;//base font size
+}
+
+.body-container {
+  text-align: center;
+  &-card {
+    border: 1px solid #ebebeb;
+    border-radius: 4px;
+    background: white;
+  }
+}
+
+.stock-form {
+  margin-top: 1.231em;
+  display: flex;
+  flex-direction: column;
+  &-header {
+    padding: 1.231em;
+    border-bottom: 1px solid #ebebeb;
+    label {
+      font-weight: bold;
+    }
+    
+  }
+  table {
+    width: 98%;
+    margin: 1em;
+  }
+  i {
+    cursor: pointer;
+  }
+  .error-text {
+    padding: 0.615em;
+    margin: 1.231em;
+    border-radius: 4px;
+    background: red;
+    color: white;
+  }
+}
